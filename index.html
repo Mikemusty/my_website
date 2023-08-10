@@ -7,47 +7,51 @@
     <link href="./css/styles.css" rel="stylesheet"/>
     </head>
     <body>
-        <div class="header">
-            <div class="logo">logo</div>
-            <div class="nav">
-                <ul class="menu">
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                    <li><a href="/view-work">View Work</a></li>
-                </ul>
+        <main>
+            <div class="header">
+                <div><img class="logo" alt="logo" src="./images/logo.jpg"></div>
+                <div class="nav">
+                    <ul class="menu">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="view-work">View Work</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div class="hero">
-            <div>
-                <img class="heroImage" src="./images/hero.jpeg" alt="heroImage">
+            <div class="hero">
+                <div>
+                    <img class="heroImage" src="./images/hero.jpeg" alt="heroImage">
+                </div>
+                <div class="heroText">
+                    <h1> A designer passionate about creating beautiful user friendly products</h1>
+                    <p>Senior Product Designer at Linktree. Previously Lead UX/UI Designer
+                        at VideoMyJob. Alumni, Y Combinator 2015.
+                    </p>
+                </div>
+                
             </div>
-            <div class="heroText">
-                <h1> A designer passionate about creating beautiful user friendly products</h1>
-                <p>Senior Product Designer at Linktree. Previously Lead UX/UI Designer
-                    at VideoMyJob. Alumni, Y Combinator 2015.
+                         <div class="portfolios">
+                            <img class="portfolio" src="./images/portfolio.jpg">
+                            <img class="portfolio" src="./images/portfolio1.jpg">
+                            <img class="portfolio" src="./images/portfolio2.jpg">
+                            <img class="portfolio" src="./images/portfolio1.jpg">
+                         </div>
+    
+            <div class="testimonial">
+                <h2>On Working With Me</h2>
+                <img class="founder" src="./images/founders.webp">
+                <p>"Sebastian is a guru at all things UX design, consistently producing intuitive, modern,
+                    and bold designs. He is a natural problem solver in the design space so everyone
+                    went to him if they were stuck on a feature or flow... Any business would be lucky to
+                    have him."
                 </p>
             </div>
-            
-        </div>
-                     <div class="portfolios">
-                        <img class="portfolio" src="./images/portfolio.jpg">
-                        <img class="portfolio" src="./images/portfolio1.jpg">
-                        <img class="portfolio" src="./images/portfolio2.jpg">
-                        <img class="portfolio" src="./images/portfolio1.jpg">
-                     </div>
-
-        <div class="testimonial">
-            <h2>On Working With Me</h2>
-            <img class="founder" src="./images/founders.webp">
-            <p>"Sebastian is a guru at all things UX design, consistently producing intuitive, modern,
-                and bold designs. He is a natural problem solver in the design space so everyone
-                went to him if they were stuck on a feature or flow... Any business would be lucky to
-                have him."
-            </p>
-        </div>
-       
+    
+        </main>
+        
+              
         <div class="contact">
-            <form>
+            <form method="post">
                 <p class="contacthead">want to get intouch?</p>
                 <div class="input-block">
                     <label>Name:</label>
@@ -62,7 +66,7 @@
                     <textarea class="input-field" name="message" placeholder="Enter Message"></textarea>
                 </div>
                 
-                <button class="submit-button">SUBMIT</button>
+                <button type="submit" class="submit-button">SUBMIT</button>
             </form>
         </div>
     <link href="./js/scripts.js" />

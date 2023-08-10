@@ -11,7 +11,8 @@ padding: 25px;
 }
 
 .logo{
-    padding: 5px;
+    display: flex;
+    width: 200px;
 }
 
 .nav{
@@ -100,11 +101,7 @@ padding: 25px;
     border-width: 1px;
 }
 
-.input-text{
-    font-size:1rem ;
-    border-radius:5px ;
-    border-width: 1px
-}
+ 
 
 
 .founder{
