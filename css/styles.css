@@ -116,3 +116,11 @@ padding: 25px;
     background-color: blue;
     border-radius: 10px;
 }
+
+body{
+    /* background-color: aqua; */
+    background-image: url("../images/portfolio.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
